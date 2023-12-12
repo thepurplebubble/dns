@@ -1,0 +1,15 @@
+certifi==2023.7.22
+charset-normalizer==3.3.1
+dnspython==2.4.2
+fqdn==1.5.1
+idna==3.4
+natsort==8.4.0
+ns1-python==0.18.0
+octodns==1.2.1
+octodns-cloudflare==0.0.3
+octodns-ns1==0.0.6
+python-dateutil==2.8.2
+PyYAML==6.0.1
+requests==2.31.0
+six==1.16.0
+urllib3==2.0.7
