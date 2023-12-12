@@ -1,0 +1,17 @@
+---
+"":
+  type: NS
+  values:
+    - dns1.p07.nsone.net.
+    - dns2.p07.nsone.net.
+    - dns3.p07.nsone.net.
+    - dns4.p07.nsone.net.
+egsdh2w3q37qf3relkn2qzpae5u3gvhf._domainkey:
+  type: CNAME
+  value: egsdh2w3q37qf3relkn2qzpae5u3gvhf.dkim.amazonses.com.
+qmzapdtoemgxsiza6oigewthripa2mhj._domainkey:
+  type: CNAME
+  value: qmzapdtoemgxsiza6oigewthripa2mhj.dkim.amazonses.com.
+qrefs3wfrumajvtsrxy6xnfugjuvrdh3._domainkey:
+  type: CNAME
+  value: qrefs3wfrumajvtsrxy6xnfugjuvrdh3.dkim.amazonses.com.

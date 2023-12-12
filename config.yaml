@@ -1,0 +1,21 @@
+# OctoDNS config file for the Main DNS system of zones.
+---
+providers:
+  main:
+    class: octodns.provider.yaml.YamlProvider
+    directory: ./zones/
+    enforce_order: False
+
+  ns1:
+    class: octodns_ns1.Ns1Provider
+    api_key: env/NS1_API_KEY
+    shared_notifylist: true
+#
+#
+#
+zones:
+  purplebubble.org.:
+    sources:
+      - main
+    targets:
+      - ns1
