@@ -1,11 +1,21 @@
 ---
 "":
-  type: NS
-  values:
-    - dns1.p07.nsone.net.
-    - dns2.p07.nsone.net.
-    - dns3.p07.nsone.net.
-    - dns4.p07.nsone.net.
+  - type: TXT
+    values:
+      - google-site-verification=U9eFa50513lMHxjh02VQyqSHu3AuXeXTJ0mTkgprQEs
+      - v=spf1 include:_spf.google.com ~all
+  - type: MX
+    values:
+      - exchange: aspmx.l.google.com.
+        preference: 1
+      - exchange: alt1.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt2.aspmx.l.google.com.
+        preference: 5
+      - exchange: alt3.aspmx.l.google.com.
+        preference: 10
+      - exchange: alt4.aspmx.l.google.com.
+        preference: 10
 egsdh2w3q37qf3relkn2qzpae5u3gvhf._domainkey:
   type: CNAME
   value: egsdh2w3q37qf3relkn2qzpae5u3gvhf.dkim.amazonses.com.
