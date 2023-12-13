@@ -16,6 +16,13 @@
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
+    - type: ALIAS
+      value: apex-loadbalancer.netlify.com
+    - type: A
+      value: 75.2.60.5
+www:
+  - type: CNAME
+    value: purplebubblewebsite.netlify.app.
 egsdh2w3q37qf3relkn2qzpae5u3gvhf._domainkey:
   type: CNAME
   value: egsdh2w3q37qf3relkn2qzpae5u3gvhf.dkim.amazonses.com.
