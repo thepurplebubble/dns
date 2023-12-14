@@ -32,3 +32,6 @@ qmzapdtoemgxsiza6oigewthripa2mhj._domainkey:
 qrefs3wfrumajvtsrxy6xnfugjuvrdh3._domainkey:
   type: CNAME
   value: qrefs3wfrumajvtsrxy6xnfugjuvrdh3.dkim.amazonses.com.
+_github-challenge-thepurplebubble-org:
+  type: TXT
+  value: c90fd1f212
