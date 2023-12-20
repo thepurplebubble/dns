@@ -23,7 +23,7 @@ providers:
     key_secret: env/BIND_SECRET
     # optional, see https://github.com/rthalley/dnspython/blob/master/dns/tsig.py#L78
     # for available algorithms
-    key_algorithm: hmac-sha1
+    key_algorithm: hmac-sha256
 #
 #
 #
