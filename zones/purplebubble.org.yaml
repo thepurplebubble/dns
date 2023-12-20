@@ -38,6 +38,6 @@ _github-challenge-thepurplebubble-org:
 cdn:
   type: A
   value: 65.19.76.238
-test:
+ns1:
   type: A
   value: 65.19.76.238
