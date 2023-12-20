@@ -10,6 +10,25 @@ providers:
     class: octodns_ns1.Ns1Provider
     api_key: env/NS1_API_KEY
     shared_notifylist: true
+    
+  rfc2136:
+      # also available as octodns_bind.BindProvider
+      class: octodns_bind.Rfc2136Provider
+      # The address of nameserver to perform zone transfer against
+      host: 100.64.0.2
+      # The port that the nameserver is listening on. Optional. Default: 53
+      port: 53
+      # Use IPv6 to perform operations. Optional. Default: False
+      ipv6: False
+      # The number of seconds to wait until timing out. Optional. Default: 15
+      timeout: 15
+      # optional, default: non-authed
+      key_name: octodns
+      # optional, default: non-authed
+      key_secret: env/BIND_SECRET
+      # optional, see https://github.com/rthalley/dnspython/blob/master/dns/tsig.py#L78
+      # for available algorithms
+      key_algorithm: hmac-sha1
 #
 #
 #
