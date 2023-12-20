@@ -18,7 +18,7 @@ providers:
     # The number of seconds to wait until timing out. Optional. Default: 15
     timeout: 15
     # optional, default: non-authed
-    key_name: octodns
+    key_name: octodns.purplebubble.org
     # optional, default: non-authed
     key_secret: env/BIND_SECRET
     # optional, see https://github.com/rthalley/dnspython/blob/master/dns/tsig.py#L78
