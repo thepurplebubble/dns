@@ -35,3 +35,6 @@ qrefs3wfrumajvtsrxy6xnfugjuvrdh3._domainkey:
 _github-challenge-thepurplebubble-org:
   type: TXT
   value: c90fd1f212
+cdn:
+  type: A
+  value: 65.19.76.238
