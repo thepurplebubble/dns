@@ -5,6 +5,10 @@ providers:
     class: octodns.provider.yaml.YamlProvider
     directory: ./zones/
     enforce_order: False
+  ns1:
+    class: octodns_ns1.Ns1Provider
+    api_key: env/NS1_API_KEY
+    shared_notifylist: true
    bind:
       class: octodns_bind.BindProvider
       # The address of nameserver to perform zone transfer against
@@ -29,3 +33,4 @@ zones:
       - main
     targets:
       - ns1
+      - bind
