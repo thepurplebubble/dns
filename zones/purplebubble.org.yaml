@@ -39,3 +39,9 @@ cdn:
 ns1:
   type: A
   value: 65.19.76.238
+20231227163243pm._domainkey:
+  type: TXT
+  value: k=rsa;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYfRjnwuQE7Eubtc7lJKzwikcIWZu9Thxsm5wfd/gRxcgey6kl15ASVQblYj5yboWM0j6KG5Wr8r2Qgnh/BtYk8yG2Mi38TIjW4b/LgCiUmh7XQ6Z0kt8OlHS51d5ROKFEGZRTEaUeFiXtBgJRSXZyjh5Q1oIvtjgH36TKNcHkKwIDAQAB
+pm-bounces:
+  type: CNAME
+  value: pm.mtasv.net
