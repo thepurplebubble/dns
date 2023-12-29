@@ -34,8 +34,13 @@ _github-challenge-thepurplebubble-org:
   type: TXT
   value: c90fd1f212
 cdn:
-  type: A
-  value: 65.19.76.238
+  records:
+    - type: A
+      value: 65.19.76.238
+      ttl: 300
+    - type: CNAME
+      value: chipper-druid-7fcb90.netlify.app
+      ttl: 300
 ns1:
   type: A
   value: 65.19.76.238
