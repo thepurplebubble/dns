@@ -50,3 +50,9 @@ ns1:
 pm-bounces:
   type: CNAME
   value: pm.mtasv.net.
+_dmarc:
+  type: TXT
+  value: v=DMARC1; p=none; pct=100; rua=mailto:re+wepqaf4nkul@dmarc.postmarkapp.com; sp=none; aspf=r;
+status:
+  tyoe: CNAME
+  value: cname.instatus.com
