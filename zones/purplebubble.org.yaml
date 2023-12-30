@@ -1,9 +1,7 @@
 ---
 "":
-  - type: TXT
-    values:
-      - google-site-verification=U9eFa50513lMHxjh02VQyqSHu3AuXeXTJ0mTkgprQEs
-      - v=spf1 include:_spf.google.com ~all
+  - type: A
+    value: 75.2.60.5
   - type: MX
     values:
       - exchange: aspmx.l.google.com.
@@ -16,42 +14,53 @@
         preference: 10
       - exchange: alt4.aspmx.l.google.com.
         preference: 10
-  - type: A
-    value: 75.2.60.5
-www:
-  - type: CNAME
-    value: purplebubblewebsite.netlify.app.
+  - type: NS
+    values:
+      - dns1.p07.nsone.net.
+      - dns2.p07.nsone.net.
+      - dns3.p07.nsone.net.
+      - dns4.p07.nsone.net.
+  - type: TXT
+    values:
+      - google-site-verification=U9eFa50513lMHxjh02VQyqSHu3AuXeXTJ0mTkgprQEs
+      - v=spf1 include:_spf.google.com ~all
+20231227163243pm._domainkey:
+  type: TXT
+  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYfRjnwuQE7Eubtc7lJKzwikcIWZu9Thxsm5wfd/gRxcgey6kl15ASVQblYj5yboWM0j6KG5Wr8r2Qgnh/BtYk8yG2Mi38TIjW4b/LgCiUmh7XQ6Z0kt8OlHS51d5ROKFEGZRTEaUeFiXtBgJRSXZyjh5Q1oIvtjgH36TKNcHkKwIDAQAB
+_dmarc:
+  type: TXT
+  value:
+    v=DMARC1\; p=none\; pct=100\; rua=mailto:re+wepqaf4nkul@dmarc.postmarkapp.com\;
+    sp=none\; aspf=r\;
+_github-challenge-thepurplebubble-org:
+  type: TXT
+  value: c90fd1f212
+cdn:
+  ttl: 300
+  type: CNAME
+  value:
+    chipper-druid-7fcb90.netlify.app.
+  # - type: A
+  #   value: 65.19.76.238
+  #   ttl: 300
 egsdh2w3q37qf3relkn2qzpae5u3gvhf._domainkey:
   type: CNAME
   value: egsdh2w3q37qf3relkn2qzpae5u3gvhf.dkim.amazonses.com.
+ns1:
+  type: A
+  value: 65.19.76.238
+pm-bounces:
+  type: CNAME
+  value: pm.mtasv.net.
 qmzapdtoemgxsiza6oigewthripa2mhj._domainkey:
   type: CNAME
   value: qmzapdtoemgxsiza6oigewthripa2mhj.dkim.amazonses.com.
 qrefs3wfrumajvtsrxy6xnfugjuvrdh3._domainkey:
   type: CNAME
   value: qrefs3wfrumajvtsrxy6xnfugjuvrdh3.dkim.amazonses.com.
-_github-challenge-thepurplebubble-org:
-  type: TXT
-  value: c90fd1f212
-cdn:
-  type: CNAME
-  value: chipper-druid-7fcb90.netlify.app
-  ttl: 300
-  # - type: A
-  #   value: 65.19.76.238
-  #   ttl: 300
-ns1:
-  type: A
-  value: 65.19.76.238
-20231227163243pm._domainkey:
-  type: TXT
-  value: k=rsa\;p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCYfRjnwuQE7Eubtc7lJKzwikcIWZu9Thxsm5wfd/gRxcgey6kl15ASVQblYj5yboWM0j6KG5Wr8r2Qgnh/BtYk8yG2Mi38TIjW4b/LgCiUmh7XQ6Z0kt8OlHS51d5ROKFEGZRTEaUeFiXtBgJRSXZyjh5Q1oIvtjgH36TKNcHkKwIDAQAB
-pm-bounces:
-  type: CNAME
-  value: pm.mtasv.net.
-_dmarc:
-  type: TXT
-  value: v=DMARC1; p=none; pct=100; rua=mailto:re+wepqaf4nkul@dmarc.postmarkapp.com; sp=none; aspf=r;
 status:
-  tyoe: CNAME
-  value: cname.instatus.com
+  type: CNAME
+  value: cname.instatus.com.
+www:
+  type: CNAME
+  value: purplebubblewebsite.netlify.app.
