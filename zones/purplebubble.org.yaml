@@ -46,6 +46,12 @@ cdn:
 egsdh2w3q37qf3relkn2qzpae5u3gvhf._domainkey:
   type: CNAME
   value: egsdh2w3q37qf3relkn2qzpae5u3gvhf.dkim.amazonses.com.
+google._domainkey.:
+  type: TXT
+  value: v=DKIM1\; k=rsa\; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw9mjiWAWPCssEYqGUQrGb39oEcEdD2wqvyBTerLpjfTvwHwO2BblVJQvLq8MIFBt9sqm8f0C9B83V8/uiTX/v3EUAejsjha8NTv6A48QiLM+yNKl+Ouq/3LZLmPqKVo0WUm0yukhk9o3NZPxswWM4ee6qPnXgzujYe4Edk4+b5wrdfiJrS8ehuJ087aE7uEeXURFq/gX7Lnwn//d0FpeeusRJ7QJ6BU0JThqfZ9/CZfEmWjNoz6wLdGaH11bjxJMkyT424Wy7mO8qSBACHuXHNsHqfyogUC80wWmrpA+i75Q1dShYqw5AAmCOmHLSeqJP2lX5QNc6OiqgjTLowHEkQIDAQAB
+_DMARC.:
+  type: TXT
+  value: v=DMARC1\; p=none\; rua=mailto:dmarc_report@hackclub.com\; ruf=mailto:dmarc_report@hackclub.com\; fo=1
 ns1:
   type: A
   value: 65.19.76.238
