@@ -33,4 +33,4 @@ zones:
       - main
     targets:
       - ns1
-      # - bind
+      - bind
