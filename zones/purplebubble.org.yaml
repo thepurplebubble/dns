@@ -65,3 +65,7 @@ status:
 www:
   type: CNAME
   value: purplebubblewebsite.netlify.app.
+umami: 
+  ttl: 1
+  type: A
+  value: 65.19.76.238
