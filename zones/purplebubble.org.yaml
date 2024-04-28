@@ -39,8 +39,7 @@ _github-challenge-thepurplebubble-org:
 cdn:
   ttl: 300
   type: CNAME
-  value:
-    chipper-druid-7fcb90.netlify.app.
+  value: chipper-druid-7fcb90.netlify.app.
   # - type: A
   #   value: 65.19.76.238
   #   ttl: 300
@@ -80,7 +79,7 @@ www:
   ttl: 1
   type: CNAME
   value: purplebubblewebsite.netlify.app.
-umami: 
+umami:
   ttl: 1
   type: A
   value: 65.19.76.238
