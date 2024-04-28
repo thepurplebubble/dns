@@ -5,6 +5,7 @@ providers:
     class: octodns.provider.yaml.YamlProvider
     directory: ./zones/
     enforce_order: False
+    default_ttl: 1
   ns1:
     class: octodns_ns1.Ns1Provider
     api_key: env/NS1_API_KEY
