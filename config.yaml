@@ -4,7 +4,7 @@ providers:
   main:
     class: octodns.provider.yaml.YamlProvider
     directory: ./zones/
-    enforce_order: False
+    enforce_order: true
     default_ttl: 1
   ns1:
     class: octodns_ns1.Ns1Provider
