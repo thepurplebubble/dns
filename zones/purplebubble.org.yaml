@@ -27,7 +27,15 @@
     ttl: 1
     values:
       - google-site-verification=U9eFa50513lMHxjh02VQyqSHu3AuXeXTJ0mTkgprQEs
-      - v=spf1 include:_spf.google.com ~all
+      - v=spf1 a mx include:_spf.google.com include:relay.mailchannels.net ~all
+_mailchannels:
+  ttl: 1
+  type: TXT
+  value: v=mc1 cfid=yourdomain.workers.dev
+mailchannels._domainkey:
+  ttl: 1
+  type: TXT
+  value: v=DKIM1;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsKYWFBwhbZYW+4dex6q9mc1wThG17ugAOzUJm1b+kLMroACtjDUMhHy+KePKN6+9VuSL2vrL1QFme2u3ps36X04eKP9HqhojD2GKPC2T791b7ewqltcdCg5bcq924yxrU9r6es7L2kEOAQKJtVBXwp4bhlKlWCwQ4RPYLfIo7WL7jpqko2aqBP1jzOqC+++xkcnZI/jxcHUdnlPezCQpTPCdyQ6OcTN35XVvI4UGM3LAm87W3y/Dv+fu9Z4QHyrmGH1u/Eg6DkHJquRs/qUOoEcj/ON7ORPluYtajW3IfKPJdJT/u6fRiNX2u4r0XjUHHy/e/Axcs4YzxEPkHsaY+wIDAQAB
 20231227163243pm._domainkey:
   ttl: 1
   type: TXT
@@ -74,7 +82,7 @@ qrefs3wfrumajvtsrxy6xnfugjuvrdh3._domainkey:
 status:
   ttl: 1
   type: CNAME
-  value: cname.instatus.com.
+  value: cname.c
 www:
   ttl: 1
   type: CNAME
