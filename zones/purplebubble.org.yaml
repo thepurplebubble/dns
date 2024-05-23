@@ -43,7 +43,7 @@ _github-challenge-thepurplebubble-org:
 _mailchannels:
   ttl: 1
   type: TXT
-  value: v=mc1 cfid=worker-email-pb-production.kieran-fdb.workers.dev
+  value: v=mc1 cfid=kieran-fdb.workers.dev
 cdn:
   ttl: 300
   type: CNAME
