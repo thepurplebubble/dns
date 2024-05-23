@@ -44,6 +44,10 @@ _mailchannels:
   ttl: 1
   type: TXT
   value: v=mc1 cfid=kieran-fdb.workers.dev
+catapult:
+  ttl: 300
+  type: CNAME
+  value: flourishing-bublanina-0b05d1.netlify.app.
 cdn:
   ttl: 300
   type: CNAME
