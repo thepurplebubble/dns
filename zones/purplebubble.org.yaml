@@ -95,3 +95,24 @@ www:
   ttl: 1
   type: CNAME
   value: purplebubblewebsite.netlify.app.
+eknpsnakhxkyr24xncfb3hupstaa2y2b._domainkey:
+  ttl: 1
+  type: CNAME
+  value: eknpsnakhxkyr24xncfb3hupstaa2y2b.dkim.amazonses.com.
+kqn32qgyzpek7oaoyhiclzlsnn77abad._domainkey:
+  ttl: 1
+  type: CNAME
+  value: kqn32qgyzpek7oaoyhiclzlsnn77abad.dkim.amazonses.com.
+lptmnwbfk53xp5luorurniyn2cjs2whs._domainkey:
+  ttl: 1
+  type: CNAME
+  value: lptmnwbfk53xp5luorurniyn2cjs2whs.dkim.amazonses.com.
+envelope: 
+  - ttl: 1
+    type: TXT
+    value: v=spf1 include:amazonses.com ~all
+  - ttl: 1
+    type: MX
+    value:
+      - exchange: feedback-smtp.us-east-1.amazonses.com.
+        preference: 10
