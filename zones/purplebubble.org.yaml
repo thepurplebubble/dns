@@ -116,3 +116,7 @@ www:
   ttl: 1
   type: CNAME
   value: purplebubblewebsite.netlify.app.
+emgbot:
+  ttl: 1
+  type: A
+  value: 65.19.76.238
