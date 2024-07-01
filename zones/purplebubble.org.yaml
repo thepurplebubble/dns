@@ -28,6 +28,7 @@
     values:
       - google-site-verification=U9eFa50513lMHxjh02VQyqSHu3AuXeXTJ0mTkgprQEs
       - v=spf1 a mx include:_spf.google.com include:relay.mailchannels.net ~all
+      - 1password-site-verification=3AGKG27MJ5BOVEEZUBYRWOWUQQ
 20231227163243pm._domainkey:
   ttl: 1
   type: TXT
@@ -117,6 +118,10 @@ www:
   type: CNAME
   value: purplebubblewebsite.netlify.app.
 emgbot:
+  ttl: 1
+  type: A
+  value: 65.19.76.238
+telemetry:
   ttl: 1
   type: A
   value: 65.19.76.238
