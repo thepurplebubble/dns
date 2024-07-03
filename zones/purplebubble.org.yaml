@@ -125,3 +125,11 @@ telemetry:
   ttl: 1
   type: A
   value: 65.19.76.238
+pb.magicmirror:
+  ttl: 1
+  type: A
+  value: 65.19.76.238
+hc.magicmirror:
+  ttl: 1
+  type: A
+  value: 65.19.76.238
